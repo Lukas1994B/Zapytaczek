@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zapytaczek-logowanie</title>
+    <script src="jquery-3.3.1.min.js" defer></script>
+    <script src="scripts.js" defer></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script crossorigin="anonymous"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body class="body form-login">
+
+<header>
+    <div class="h1">
+        <header>
+            <h1>Witamy, Zapytaczek</h1>
+        </header>
+
+    </div>
+</header>
+<article>
+    <form>
+        <div class="col-3 mx-auto col-3">
+            <div class="form-group">
+                <label for="username">User name</label>
+                <input type="email" class="form-control" id="username"
+                       placeholder="Enter username">
+                <!--<small id="emailHelp" class="form-text text-muted">We'll never share your e-mail with anyone else.-->
+                <!--&lt;!&ndash;</small>&ndash;&gt; aria-describedby="emailHelp"-->
+            </div>
+
+            <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary" id="form-login">Submit
+                <!--<meta http-equiv="refresh" content="0; URL=http://localhost:8080/mainSite/">-->
+            </button>
+            <button type="button" class="btn btn-primary float-lg-right" id="button-registry"
+                    onclick="window.location.href='RegistryNewUser.html'">Registry
+            </button>
+
+
+        </div>
+    </form>
+
+</article>
+<div>
+    <footer class="foot">
+        <h6>All rights reserved-Lukasz Bresz</h6>
+    </footer>
+</div>
+
+
+</body>
+</html>

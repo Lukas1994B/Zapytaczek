@@ -1,0 +1,69 @@
+.h1
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.body
+{
+    background-color: #d7d4d4;
+}
+
+.foot
+{
+    text-align: right;
+    clear: both;
+}
+
+.profile
+{
+    marker-mid: none;
+    text-align: right;
+}
+
+.card
+{
+    float: left;
+}
+
+.menu
+{
+    font-size: x-large;
+    mso-element-frame-width: auto;
+}
+
+.border
+{
+    border-color: black;
+}
+
+#contact
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: xx-large;
+    text-align: center;
+}
+#lorem
+{
+    text-align: center;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map
+{
+    text-align: center;
+}
+#contact-list
+{
+    text-align: center;
+    margin: auto;
+}
+#back-from-contact
+{
+    text-align: right;
+    float: right;
+}
